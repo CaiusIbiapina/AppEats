@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(65, 41, 41);
+}
+
+.pagina {
+    background-color: #CBCBCB;
+    width: 414px;
+    height: 1026px;
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}    
+
+.cabeçalho {
+    background-color: #CF2B2B;
+    width: 414px;
+    height: 92px;
+    
+}
+
+.cabeçalho > h1 {
+    color: #FFF;
+    font-family: 'Righteous', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.528px;
+    font-weight: bold;
+    margin-left: 21px;
+}
+
+.cabeçalho > h2 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 21px;
+}
+
+.cardapio {
+    width: 100%;
+}
+
+.cardapio > img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.cardapio > h1 {
+    color: #333;
+    font-family: Righteous;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.468px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.prato, .bebida, .sobremesa {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow: hidden;
+}
+
+.sobremesa {
+    margin-bottom: 20px;
+}
+
+.prato > div, .bebida > div, .sobremesa > div  {
+    margin: 0 5px;
+    border-radius: 9px;
+    /*padding: 18px 14px;*/
+}
+
+.botao-prato-1, .botao-prato-2, .botao-prato-3, .botao-prato-4, .botao-bebida-1, .botao-bebida-2, .botao-bebida-3, .botao-bebida-4, .botao-sobremesa-1, .botao-sobremesa-2, .botao-sobremesa-3, .botao-sobremesa-4 {
+    width: 172px;
+    height: 190px;
+    border-radius: 9px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /*padding-top: 5px;*/
+}
+
+.botao-prato-1 > h2, .botao-prato-2 > h2, .botao-prato-3 > h2, .botao-prato-4 > h2, .botao-bebida-1 > h2, .botao-bebida-2 > h2, .botao-bebida-3 > h2, .botao-bebida-4 > h2, .botao-sobremesa-1 > h2, .botao-sobremesa-2 > h2, .botao-sobremesa-3 > h2, .botao-sobremesa-4 > h2 {
+    color: #333;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.botao-prato-1 > h3, .botao-prato-2 > h3, .botao-prato-3 > h3, .botao-prato-4 > h3, .botao-bebida-1 > h3, .botao-bebida-2 > h3, .botao-bebida-3 > h3, .botao-bebida-4 > h3, .botao-sobremesa-1 > h3, .botao-sobremesa-2 > h3, .botao-sobremesa-3 > h3, .botao-sobremesa-4 > h3 {
+    color: #A6A6A6;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.botao-prato-1 > h4, .botao-prato-2 > h4, .botao-prato-3 > h4, .botao-prato-4 > h4, .botao-bebida-1 > h4, .botao-bebida-2 > h4, .botao-bebida-3 > h4, .botao-bebida-4 > h4, .botao-sobremesa-1 > h4, .botao-sobremesa-2 > h4, .botao-sobremesa-3 > h4, .botao-sobremesa-4 > h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 60px;
+}
+
+.finalizar {
+    width: 414px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.fechar-pedido {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background: #CBCBCB;
+    color: black;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.selecionado {
+    width: 172px;
+    height: 190px;
+    border-radius: 9px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 5px #32B72F inset, 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+}
+
+.pedidos-escolhidos {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background: #32B72F;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
