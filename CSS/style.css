@@ -73,8 +73,11 @@ body {
 .prato, .bebida, .sobremesa {
     display: flex;
     align-items: center;
-    overflow-x: scroll;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.info-prato-1, .info-prato-2, .info-prato-3 {
+    flex-shrink: 0;
 }
 
 .sobremesa {
